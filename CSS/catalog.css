@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 0;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+
+.header {
+    padding: 0 100px;
+    height: 100px;
+}
+  
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+  
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logo {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    transition: opacity 0.4s;
+    margin-right: 140px;
+}
+  
+.logo.logo:hover {
+    opacity: 0.5;
+}
+  
+
+.help:hover {
+    transform: scale(1.1); /* Увеличение элемента при наведении */
+    background-color: #5b9a5b;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-body input {
+    width: calc(100% - 20px); /* Убираем лишние отступы */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.headernav a {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+  
+.headernav a:hover {
+    opacity: 1;
+}
+  
+.headernav a.active {
+    font-weight: 650;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: green;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin: 0;
+}
+  
+.headerul {
+    display: flex;
+    gap: 67px;
+}
+  
+header {
+    height: 100px;
+}
+  
+.help {
+    border-right: 2.3px solid black;
+    border-left: 2.3px solid black;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    padding: 0 70px;
+    margin-right: 70px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+  
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; /* Размещаем окно поверх остального контента */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Затемняем фон */
+}
+  
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px; 
+    margin: 100px auto; 
+}
+  
+.modal-header {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.modal-body input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.modal-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.catalog {
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.catalog h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    color: #5b9a5b;
+}
+
+.catalogul {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет переносить карточки на следующую строку при нехватке места */
+    justify-content: space-between; /* Равномерное распределение карточек */
+    gap: 20px; 
+}
+
+.catalogli {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: calc(33.333% - 20px); /* 3 карточки в ряд, с учетом gap */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.catalogli:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.catalogli img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.catalogli p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+
+
+.footer{
+    background: #D9D7CC;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+    
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color: black;
+    font-weight: 600;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+
+.footer .roww{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color: black;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+    
+
+
+.footer .row a{
+    text-decoration:none;
+    color: black;
+    transition:0.5s;
+}
+    
+.footer .row a:hover{
+    color: black;
+}
+    
+.footer .row ul{
+    width:100%;
+}
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+    
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+    
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+}
+  
+
+/* Анимация увеличения */
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* Увеличение на 10% */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.footer .row a i:hover {
+    animation: grow 0.6s ease-in-out;
+}
+
+
+.footer .row ul li a:hover {
+    animation: grow 0.6s ease-in-out;
+}
+
+@media (max-width: 720px) {
+    .header {
+        padding: 0 15px; 
+        height: auto; 
+    }
+
+    .header .container {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+    }
+
+    .logo {
+        font-size: 24px; 
+        margin: 0 auto;
+    }
+
+    .headernav {
+        width: 100%; 
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 15px;
+    }
+
+    .help {
+        font-size: 16px; 
+        padding: 10px 30px;
+        margin-right: 0; 
+        width: 100%; 
+        text-align: center; 
+        box-sizing: border-box; 
+    }
+}
+
+@media (max-width: 480px) {
+    .headernav a {
+        font-size: 14px; 
+    }
+
+    .logo {
+        font-size: 20px; 
+        margin-bottom: 10px; 
+    }
+
+    .help {
+        font-size: 14px;
+        padding: 8px 20px;
+        margin: 0; 
+    }
+}
