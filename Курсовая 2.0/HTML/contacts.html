@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/contacts.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <a href="homepage.html"><p class="logo">ФЕРМАТЕХ</p></a>
+      
+        
+          <a href="javascript:void(0);" class="help" onclick="openModal()">Связаться с нами <br>+7(499)976-12-50</a>
+      
+          <script src="../JavaScript/index2.js"></script>
+          
+      
+          <nav class="headernav">
+            <ul class="headerul">
+              <li><a  href="homepage.html">ГЛАВНАЯ</a></li>
+              <li><a  href="catalog.html">КАТАЛОГ</a></li>
+              <li><a href="about us.html">О НАС</a></li>
+              <li><a class="active" href="contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+      
+   
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Заполните данные</h2>
+          </div>
+          <div class="modal-body">
+            <form id="contactForm">
+              <label for="phone">Номер телефона:</label>
+              <input type="text" id="phone" name="phone" required><br>
+              <label for="email">Электронная почта:</label>
+              <input type="email" id="email" name="email" required><br>
+              <input type="submit" value="Отправить">
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p id="responseMessage"></p>
+          </div>
+        </div>
+    </div>
+
+
+
+    <section class="catalog">
+        <div class="container">
+            <h1>Адреса филиалов</h1>
+            <ul class="catalogul">
+                <li class="catalogli">
+                    <a href="">
+                       
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9d89f78f6d0b1e5e1299aa3b62a7d9c4cfc0c647151a8b55c4e7a8ef7697f7cf&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                        <p>Сокольницкий валл 11к</p>
+                    </a>
+                </li>
+                <li class="catalogli">
+                    <a href="">
+                     
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8b3d48c07dbf6b6b5ea34a1ccf69b88ff68e3c4bf7a2c834b7f8f4c28dfb54e7&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                        <p>Патриаршие пруды 7б</p>
+                    </a>
+                </li>
+                <li class="catalogli">
+                    <a href="">
+                        
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3cfa77f2e7c1b1e643b0ab761f1e0c6a4b3d5c9e8752f77f9cda5d8e3c57d2d8&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                        <p>Мира 60\2</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="catalog">
+        <div class="container">
+            <h1>Наши сотрудники</h1>
+            <ul class="catalogul">
+                <li class="catalogli">
+                    <a href="">
+                        <img src="../images\close-up-young-businessman-playing-with-his-tie.jpg" alt="Навесное оборудование">
+                        <p>Петр Григорьев</p>
+                    
+                    </a>
+                </li>
+                <li class="catalogli">
+                    <a href="">
+                        <img src="../images\serious-man-formal-jacket-tie-standing-camera (1).jpg" alt="Навесное оборудование">
+                        <p>Владислав Онопко</p>
+                    </a>
+                </li>
+                <li class="catalogli">
+                    <a href="">
+                        <img src="../images\freepik-export-20241204220612rHk0 (1).jpeg" alt="Навесное оборудование">
+                        <p>Рузиль Минникаев</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+
+
+    <footer>
+        <div class="footer">
+           <div class="row">
+            <a href="https://t.me/rgaumsha"><i class="fa fa-telegram"></i></a>
+            <a href="https://vk.com/rsau_official"><i class="fa fa-vk"></i></a>
+            <a href="https://youtu.be/YVD2GiAVd2Y?si=aly8sdreanjL8Hz9"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/timiryazevka_official/?hl=ru"><i class="fa fa-instagram"></i></a>
+          </div>
+        
+          <div class="row">
+            <ul>
+              <li><a href="homepage.html">ГЛАВНАЯ</a></li>
+              <li><a href="catalog.html">КАТАЛОГ</a></li>
+              <li><a href="about us.html">О НАС</a></li>
+              <li><a href="contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+          </div>
+        
+          <div class="roww">ООО ФГБОУ ВО РГАУ-МСХА ИМЕНИ К.А. ТИМИРЯЗЕВА</div>
+        </div>
+      </footer>
