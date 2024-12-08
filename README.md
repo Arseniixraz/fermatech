@@ -1,2 +1,0 @@
-# fermatech
-Agricultural machinery dealership
