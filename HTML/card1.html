@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/card.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <a href="homepage.html"><p class="logo">ФЕРМАТЕХ</p></a>
+      
+       
+          <a href="javascript:void(0);" class="help" onclick="openModal()">Связаться с нами <br>+7(499)976-12-50</a>
+      
+          <script src="../JavaScript/index2.js"></script>
+          
+       
+          <nav class="headernav">
+            <ul class="headerul">
+              <li><a  href="homepage.html">ГЛАВНАЯ</a></li>
+              <li><a  href="catalog.html">КАТАЛОГ</a></li>
+              <li><a href="about us.html">О НАС</a></li>
+              <li><a href="contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+      
+      
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Заполните данные</h2>
+          </div>
+          <div class="modal-body">
+            <form id="contactForm">
+              <label for="phone">Номер телефона:</label>
+              <input type="text" id="phone" name="phone" required><br>
+              <label for="email">Электронная почта:</label>
+              <input type="email" id="email" name="email" required><br>
+              <input type="submit" value="Отправить">
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p id="responseMessage"></p>
+          </div>
+        </div>
+    </div>
+
+
+
+    <section class="card">
+      <div class="container">
+          <h1 class="cardh1">Cat® 336 Hydraulic Excavator</h1>
+        <div class="card-content">
+        
+          <div class="slider-container">
+            <div class="slider">
+              <img src="../images\336_1024_auto_jpg.jpg" alt="Рыжий пушистый кот в джинсах">
+              <img src="../images\cat 336 2.jpg" alt="Бело-рыжий пушистый кот">
+              <img src="../images\cat336 1.jpg" alt="Золотистый пушистый кот">">
+            </div>
+            <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+            <button class="next-button" aria-label="Посмотреть следующий слайд">&gt;</button>
+          </div>
+    
+        
+          <div class="price">
+            <h2 class="priceh2">от 32 300 000 ₽</h2>
+            <p class="leasing">от 324 383 ₽ / мес в лизинг</p>
+            <a href="javascript:void(0);" class="btn1" id="orderBtn">Заказать</a>
+    
+           
+            <div class="haracter">
+              <ul class="haracterul">
+                <li><span>Модель двигателя:</span> Cat® C9.3B</li>
+                <li><span>Полезная мощность:</span> 311 л.с.</li>
+                <li><span>Диаметр цилиндров:</span> 115 мм</li>
+                <li><span>Эксплуатационная масса:</span> 35 900 кг</li>
+                <li><span>Максимальная глубина копания:</span> 7 520 мм</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="order-popup2" id="orderPopup2">
+      <div class="order-popup-content2">
+          <h2>Оформление заказа</h2>
+          <form class="order-form2" id="orderForm2">
+              <label for="name2">Имя:</label>
+              <input type="text" id="name2" name="name2" required>
+
+              <label for="email2">Email:</label>
+              <input type="email" id="email2" name="email2" required>
+
+              <label for="phone2">Телефон:</label>
+              <input type="tel" id="phone2" name="phone2" required>
+
+              <button type="submit" class="submit-btn2">Подтвердить заказ</button>
+              <button type="button" class="close-btn2" id="closeBtn2">Закрыть</button>
+          </form>
+ 
+          <div id="confirmationMessage" class="confirmation-message2" style="display: none;">
+              <p>С вами свяжутся для подтверждения заказа.</p>
+          </div>
+      </div>
+    </div>
+
+
+    <section class="card2">
+      <div class="container">
+        <h2 class="card2h2">Обзор</h2>
+        <p class="card2text">
+          Экскаватор Cat® 336 сочетает в себе исключительные эксплуатационные характеристики и простые в использовании технологии, включая систему регулирования уклона Cat GRADE с функциями 2Д, Grade Assist и Payload. Все это является стандартным оборудованием, устанавливаемым на заводе-изготовителе, которое позволяет повысить эффективность работы оператора на 45%. Такие преимущества выгодно сочетаются с новой кабиной, увеличенными интервалами технического обслуживания, которые сокращают затраты на техническое обслуживание до 15%, и системой питания, позволяющей сократить расход топлива почти на 15%. В результате, вы получаете экономичный экскаватор, который идеально соответствует вашим требованиям.
+        </p>
+      </div>
+    </section>
+    
+    <section class="card3">
+      <div class="container">
+        <h2 class="card3h2">Преимущества</h2>
+    
+        <div class="cardul">
+          <h4>ВЫСОКАЯ ПРОИЗВОДИТЕЛЬНОСТЬ ПРИ НИЗКОМ РАСХОДЕ ТОПЛИВА</h4>
+          <ul>
+            <li>
+              Сократите расход топлива почти на 15% по сравнению с экскаватором 336D2, при этом вы получите большую мощность, крутящий момент и производительность.
+            </li>
+            <li>
+              Выберите один из двух режимов в зависимости от выполняемой работы: Power, Smart или Eco. Режим Smart автоматически регулирует обороты двигателя и гидравлическую мощность в зависимости от условий выемки грунта.
+            </li>
+            <li>
+              Усовершенствованная гидравлическая система обеспечивает оптимальный баланс мощности и эффективности, сохраняя хорошую управляемость для точной выемки грунта.
+            </li>
+          </ul>
+        </div>
+    
+        <div class="cardul">
+          <h4>УВЕЛИЧЬТЕ ЭФФЕКТИВНОСТЬ И ПРОИЗВОДИТЕЛЬНОСТЬ БЛАГОДАРЯ ВСТРОЕННЫМ ФУНКЦИЯМ CAT CONNECT</h4>
+          <ul>
+            <li>
+              Увеличьте производительность на 45% по сравнению со традиционными методами профилирования за счет стандартной системы регулирования уклона Cat GRADE с системой 2Д.
+            </li>
+            <li>
+              Выполняйте выемку грунта, управляя параметрами глубины, уклона и горизонтального расстояния.
+            </li>
+            <li>
+              Стандартная система Product Link™ сообщает о расположении, моточасах, расходе топлива и других параметрах.
+            </li>
+          </ul>
+        </div>
+    
+        <div class="cardul">
+          <h4>РАБОТАЙТЕ КОМФОРТНО В СОВЕРШЕННО НОВОЙ КАБИНЕ</h4>
+          <ul>
+            <li>Вы можете выбрать кабину класса Comfort или Deluxe, они обе оснащены автоматической системой климат-контроля.</li>
+            <li>Оцените широкие проходы между панелями, которые делают кабину еще более удобной.</li>
+            <li>Высокотехнологичные упругие опоры снижают вибрацию почти на 50% по сравнению с предыдущими моделями экскаватора.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    
+
+    <footer>
+      <div class="footer">
+         <div class="row">
+          <a href="https://t.me/rgaumsha"><i class="fa fa-telegram"></i></a>
+          <a href="https://vk.com/rsau_official"><i class="fa fa-vk"></i></a>
+          <a href="https://youtu.be/YVD2GiAVd2Y?si=aly8sdreanjL8Hz9"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.instagram.com/timiryazevka_official/?hl=ru"><i class="fa fa-instagram"></i></a>
+        </div>
+      
+        <div class="row">
+          <ul>
+            <li><a href="homepage.html">ГЛАВНАЯ</a></li>
+            <li><a href="catalog.html">КАТАЛОГ</a></li>
+            <li><a href="about us.html">О НАС</a></li>
+            <li><a href="contacts.html">КОНТАКТЫ</a></li>
+          </ul>
+        </div>
+      
+        <div class="roww">ООО ФГБОУ ВО РГАУ-МСХА ИМЕНИ К.А. ТИМИРЯЗЕВА</div>
+      </div>
+    </footer>
+    
+    
+  
+  <script src="../JavaScript/index3.js"></script>
+  <script src="../JavaScript/index4.js"></script>
+</body>
+</html>
