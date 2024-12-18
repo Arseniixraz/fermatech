@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS\homepage.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html"><p class="logo">ФЕРМАТЕХ</p></a>
+  
+  
+      <a href="javascript:void(0);" class="help" onclick="openModal()">Связаться с нами <br>+7(499)976-12-50</a>
+  
+      <script src="JavaScript/index2.js"></script>
+      
+    
+      <nav class="headernav">
+        <ul class="headerul">
+          <li><a class="active" href="index.html">ГЛАВНАЯ</a></li>
+          <li><a  href="catalog.html">КАТАЛОГ</a></li>
+          <li><a href="about us.html">О НАС</a></li>
+          <li><a href="contacts.html">КОНТАКТЫ</a></li>
+        </ul>
+      </nav>
+    </div>
+</header>
+  
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Заполните данные</h2>
+      </div>
+      <div class="modal-body">
+        <form id="contactForm">
+          <label for="phone">Номер телефона:</label>
+          <input type="text" id="phone" name="phone" required><br>
+          <label for="email">Электронная почта:</label>
+          <input type="email" id="email" name="email" required><br>
+          <input type="submit" value="Отправить">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <p id="responseMessage"></p>
+      </div>
+    </div>
+</div>
+
+    <main class="main">
+        <section class="welcome">
+            <div class="container">
+                <div class="welcometext">
+                    <h1 class="welcometitle ">Ищете<br>индивидуальные<br>решения?</h1>
+                    <span class="welcomeline"></span>
+                    <p class="welcomedesk">ФЕРМАТЕХ оптимизируют ваши бизнес-процессы и помогут достичь желаемых результатов и успеха.</p>
+                    <a href="catalog.html" class="btn">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="slider">
+            <div class="slidetrack">
+                <div class="slide"><img src="images\caterpillar.svg" alt=""></div>
+                <div class="slide"><img src="images/Беларус.svg" alt=""></div>
+                <div class="slide"><img src="images/kverneland.svg" alt=""></div>
+                <div class="slide"><img src="images\claas.svg" alt=""></div>
+                <div class="slide"><img src="images\hardi.svg" alt=""></div>
+
+
+                <div class="slide"><img src="images\caterpillar.svg" alt=""></div>
+                <div class="slide"><img src="images\Беларус.svg" alt=""></div>
+                <div class="slide"><img src="images\kverneland.svg" alt=""></div>
+                <div class="slide"><img src="images\claas.svg" alt=""></div>
+                <div class="slide"><img src="images\hardi.svg" alt=""></div>
+                
+
+                <div class="slide"><img src="images\caterpillar.svg" alt=""></div>
+                <div class="slide"><img src="images\Беларус.svg" alt=""></div>
+                <div class="slide"><img src="images\kverneland.svg" alt=""></div>
+                <div class="slide"><img src="images\claas.svg" alt=""></div>
+                <div class="slide"><img src="images\hardi.svg" alt=""></div>
+            </div>
+        </div>
+
+
+        <section class="interestingpr">
+            <div class="container">
+              <h2 class="interest">Самые продаваемые товары</h2>
+              <div class="card-container">
+              
+                <a href="card1.html" class="card">
+                  <div class="back large-card">
+                    <img src="images\image 1 cat.jpg" alt="Product 1" class="product-image" />
+                    <p class="product-name">Cat® 336 Hydraulic Excavator</p>
+                  </div>
+                </a>
+          
+             
+                <a href="card2.html" class="card">
+                  <div class="back large-card">
+                    <img src="images\image 2 krone.svg" alt="Product 2" class="product-image" />
+                    <p class="product-name">DEUTZ FAHR AGROPLUS F420</p>
+                  </div>
+                </a>
+          
+                
+                <a href="card3.html" class="card">
+                  <div class="back large-card">
+                    <img src="images\image 3 krone.svg" alt="Product 3" class="product-image" />
+                    <p class="product-name">Krone BiG X 680</p>
+                  </div>
+                </a>
+          
+            
+                <a href="catalog.html" class="card">
+                  <div class="back small-card other-products">
+                    <span class="arrow">›</span>
+                    <p class="product-name">Другие товары</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+        </section>
+
+
+        <div class="promo-wrapper">
+          <div class="promo-section">
+            <div class="promo-content">
+              <div class="promo-text">
+                <h1>Сдайте свою старую технику и получите скидку на новую</h1>
+                <p>
+                  "Мы внимательно рассматриваем ваши предложения и быстро одобряем
+                  заявки, чтобы предложить вам лучшие условия."
+                </p>
+                <a href="#" class="btn1" onclick="openModal2()">ПОДРОБНЕЕ</a>
+              </div>
+              <div class="promo-image">
+                <img src="images/tractor.png" alt="Трактор">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div id="tradein-modal" class="modal5">
+          <div class="modal5-content">
+            <span class="close5" onclick="closeModal2()">&times;</span>
+            <h2>Trade-In</h2>
+            <form id="tradein-form" action="submit.php" method="post" onsubmit="handleFormSubmit(event)">
+              <div class="form5-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form5-group">
+                <label for="phone">Номер телефона:</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form5-group">
+                <label for="current-equipment">Текущая техника:</label>
+                <input type="text" id="current-equipment" name="current_equipment" required>
+              </div>
+              <div class="form5-group">
+                <label for="desired-equipment">Желаемая техника:</label>
+                <input type="text" id="desired-equipment" name="desired_equipment" required>
+              </div>
+              <button type="submit" class="btn5-submit">Отправить</button>
+            </form>
+            <div id="success-message" style="display: none;">С вами свяжутся позже</div>
+          </div>
+        </div>
+
+        <div class="promo-section2">
+            <div class="promo-content2">
+              <div class="promo-text">
+                <div class="container">
+                  <div class="valid">
+                    <h1>Начните сотрудничество с нами сегодня</h1>
+                    <form action="" class="form" id="add-form">
+                      <input type="text" class="input-field" placeholder="Имя">
+                      <input type="text" class="input-field" placeholder="Фамилия">
+                      <input type="text" class="input-field" placeholder="Отчество">
+  
+                      <button type="submit" class="send-btn">Отправить</button>
+                    </form>
+                  </div>
+  
+                  <script src="JavaScript/index1.js"></script>
+                </div>
+                
+
+              </div>
+              <div class="promo-image">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4bb71fce417f716b089bc9d3f34046533235434d4fa9ec4ed8e4a3fa66242171&amp;source=constructor" width="550" height="404" frameborder="0"></iframe>
+              </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+         <div class="row">
+          <a href="https://t.me/rgaumsha"><i class="fa fa-telegram"></i></a>
+          <a href="https://vk.com/rsau_official"><i class="fa fa-vk"></i></a>
+          <a href="https://youtu.be/YVD2GiAVd2Y?si=aly8sdreanjL8Hz9"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.instagram.com/timiryazevka_official/?hl=ru"><i class="fa fa-instagram"></i></a>
+        </div>
+      
+        <div class="row">
+          <ul>
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="catalog.html">КАТАЛОГ</a></li>
+            <li><a href="about us.html">О НАС</a></li>
+            <li><a href="contacts.html">КОНТАКТЫ</a></li>
+          </ul>
+        </div>
+      
+        <div class="roww">ООО ФГБОУ ВО РГАУ-МСХА ИМЕНИ К.А. ТИМИРЯЗЕВА</div>
+      </div>
+    </footer>
+
+
+    <script src="JavaScript/index5.js"></script>
+
+
+
+
+</body>
+</html>

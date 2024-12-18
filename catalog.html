@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/catalog.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <a href="index.html"><p class="logo">ФЕРМАТЕХ</p></a>
+      
+      
+          <a href="javascript:void(0);" class="help" onclick="openModal()">Связаться с нами <br>+7(499)976-12-50</a>
+      
+          <script src="JavaScript/index2.js"></script>
+          
+        
+          <nav class="headernav">
+            <ul class="headerul">
+              <li><a  href="index.html">ГЛАВНАЯ</a></li>
+              <li><a class="active" href="catalog.html">КАТАЛОГ</a></li>
+              <li><a href="about us.html">О НАС</a></li>
+              <li><a href="contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+      
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Заполните данные</h2>
+          </div>
+          <div class="modal-body">
+            <form id="contactForm">
+              <label for="phone">Номер телефона:</label>
+              <input type="text" id="phone" name="phone" required><br>
+              <label for="email">Электронная почта:</label>
+              <input type="email" id="email" name="email" required><br>
+              <input type="submit" value="Отправить">
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p id="responseMessage"></p>
+          </div>
+        </div>
+    </div>
+
+
+    <section class="catalog">
+        <div class="container">
+            <h1>Каталог</h1>
+            <ul class="catalogul">
+                <li class="catalogli">
+                    <a href="">
+                        <img src="images\caterpillar_каталог.jpeg" alt="Тракторы">
+                        <p>Тракторы</p>
+                    </a>
+                </li>
+                <li class="catalogli">
+                    <a href="">
+                        <img src="images\экск_каталог.jpg" alt="Прицепы и полуприцепы">
+                        <p>Экскаваторы</p>
+                    </a>
+                </li>
+                <li class="catalogli">
+                    <a href="">
+                        <img src="images\зерноуборроч каталог.jpg" alt="Погрузчики">
+                        <p>Зерноуборочная техника</p>
+                    </a>
+                </li>
+                <li class="catalogli">
+                    <a href="">
+                        <img src="images\396041_27.jpg" alt="Навесное оборудование">
+                        <p>Кормоуборочные комбайны</p>
+                    </a>
+                </li>
+                <li class="catalogli">
+                    <a href="">
+                        <img src="images\погрузчик каталог.png" alt="Зерноуборочная техника">
+                        <p>Погрузчики</p>
+                    </a>
+                </li>
+                <li class="catalogli">
+                    <a href="">
+                        <img src="images\опрыскиватель каталог.webp" alt="Обработка зерна">
+                        <p>Опрыскиватели</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+
+
+
+    <footer>
+        <div class="footer">
+           <div class="row">
+            <a href="https://t.me/rgaumsha"><i class="fa fa-telegram"></i></a>
+            <a href="https://vk.com/rsau_official"><i class="fa fa-vk"></i></a>
+            <a href="https://youtu.be/YVD2GiAVd2Y?si=aly8sdreanjL8Hz9"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/timiryazevka_official/?hl=ru"><i class="fa fa-instagram"></i></a>
+          </div>
+        
+          <div class="row">
+            <ul>
+              <li><a href="index.html">ГЛАВНАЯ</a></li>
+              <li><a href="catalog.html">КАТАЛОГ</a></li>
+              <li><a href="about us.html">О НАС</a></li>
+              <li><a href="contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+          </div>
+        
+          <div class="roww">ООО ФГБОУ ВО РГАУ-МСХА ИМЕНИ К.А. ТИМИРЯЗЕВА</div>
+        </div>
+      </footer>

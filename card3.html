@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/card.css">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <a href="index.html"><p class="logo">ФЕРМАТЕХ</p></a>
+      
+          <!-- Ссылка для открытия модального окна -->
+          <a href="javascript:void(0);" class="help" onclick="openModal()">Связаться с нами <br>+7(499)976-12-50</a>
+      
+          <script src="JavaScript/index2.js"></script>
+          
+   
+          <nav class="headernav">
+            <ul class="headerul">
+              <li><a  href="index.html">ГЛАВНАЯ</a></li>
+              <li><a  href="catalog.html">КАТАЛОГ</a></li>
+              <li><a href="about us.html">О НАС</a></li>
+              <li><a href="contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Заполните данные</h2>
+          </div>
+          <div class="modal-body">
+            <form id="contactForm">
+              <label for="phone">Номер телефона:</label>
+              <input type="text" id="phone" name="phone" required><br>
+              <label for="email">Электронная почта:</label>
+              <input type="email" id="email" name="email" required><br>
+              <input type="submit" value="Отправить">
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p id="responseMessage"></p>
+          </div>
+        </div>
+    </div>
+
+    <section class="card">
+        <div class="container">
+            <h1 class="cardh1">Krone BiG X 680</h1>
+          <div class="card-content">
+       
+            <div class="slider-container">
+              <div class="slider">
+                <img src="images\IMG_9122-1a_19670.jpg" alt="Рыжий пушистый кот в джинсах">
+                <img src="images\IMG_9155-1a_29231.jpg" alt="Бело-рыжий пушистый кот">
+                <img src="images\IMG_9322-1a_29529.jpg" alt="Золотистый пушистый кот">">
+              </div>
+              <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+              <button class="next-button" aria-label="Посмотреть следующий слайд">&gt;</button>
+            </div>
+      
+          
+            <div class="price">
+              <h2 class="priceh2">от 58 700 000 ₽</h2>
+              <p class="leasing">от 755 666 ₽ / мес в лизинг</p>
+              <a href="javascript:void(0);" class="btn1" id="orderBtn">Заказать</a>
+      
+             
+              <div class="haracter">
+                <ul class="haracterul">
+                  <li><span>Модель двигателя:</span> Liebherr D 9508</li>
+                  <li><span>Полезная мощность:</span> 687 л.с.</li>
+                  <li><span>Диаметр цилиндров:</span> 155 мм</li>
+                  <li><span>Эксплуатационная масса:</span> 16 700 кг</li>
+                  <li><span>Диаметр вальцов:</span> 250 см</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <div class="order-popup2" id="orderPopup2">
+      <div class="order-popup-content2">
+          <h2>Оформление заказа</h2>
+          <form class="order-form2" id="orderForm2">
+              <label for="name2">Имя:</label>
+              <input type="text" id="name2" name="name2" required>
+
+              <label for="email2">Email:</label>
+              <input type="email" id="email2" name="email2" required>
+
+              <label for="phone2">Телефон:</label>
+              <input type="tel" id="phone2" name="phone2" required>
+
+              <button type="submit" class="submit-btn2">Подтвердить заказ</button>
+              <button type="button" class="close-btn2" id="closeBtn2">Закрыть</button>
+          </form>
+          <!-- Сообщение о подтверждении -->
+          <div id="confirmationMessage" class="confirmation-message2" style="display: none;">
+              <p>С вами свяжутся для подтверждения заказа.</p>
+          </div>
+      </div>
+    </div>
+
+
+    <section class="card2">
+        <div class="container">
+          <h2 class="card2h2">Обзор</h2>
+          <p class="card2text">
+            Комбайн Krone Big X 680 – это воплощение мощности и инноваций, разработанных для оптимизации сбора урожая. Оснащённый высокопроизводительным двигателем Liebherr мощностью 687 л.с., этот кормоуборочный комбайн предлагает непревзойдённое сочетание мощности, топливной экономичности и высокой производительности. Усовершенствованные системы измельчения и подачи материала обеспечивают равномерное распределение массы и идеальное качество резки. Krone Big X 680 подходит для работы в любых условиях, сохраняя производительность и надежность, которые так важны для современных аграриев.
+          </p>
+        </div>
+      </section>
+      
+      <section class="card3">
+        <div class="container">
+          <h2 class="card3h2">Преимущества</h2>
+      
+          <div class="cardul">
+            <h4>МОЩНОСТЬ И ТОПЛИВНАЯ ЭФФЕКТИВНОСТЬ</h4>
+            <ul>
+              <li>
+                Двигатель Liebherr обеспечивает мощность 687 л.с., позволяя работать даже в самых сложных условиях.
+              </li>
+              <li>
+                Снижение расхода топлива благодаря инновационной системе управления подачей мощности.
+              </li>
+              <li>
+                Идеальное сочетание высокой производительности и минимального воздействия на окружающую среду.
+              </li>
+            </ul>
+          </div>
+      
+          <div class="cardul">
+            <h4>ИННОВАЦИИ В ИЗМЕЛЬЧЕНИИ</h4>
+            <ul>
+              <li>
+                Уникальная система MaxFlow Drum обеспечивает оптимальное измельчение и равномерное распределение массы.
+              </li>
+              <li>
+                Возможность регулировки длины резки для адаптации к разным видам кормов.
+              </li>
+              <li>
+                Высокая надёжность даже при работе с густым и влажным урожаем.
+              </li>
+            </ul>
+          </div>
+      
+          <div class="cardul">
+            <h4>КОМФОРТ ДЛЯ ОПЕРАТОРА</h4>
+            <ul>
+              <li>
+                Просторная кабина с панорамным обзором и интуитивно понятной системой управления.
+              </li>
+              <li>
+                Эргономичное кресло оператора с системой климат-контроля для комфортной работы.
+              </li>
+              <li>
+                Низкий уровень вибрации и шума благодаря улучшенной конструкции кабины.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    
+      
+      <footer>
+        <div class="footer">
+           <div class="row">
+            <a href="https://t.me/rgaumsha"><i class="fa fa-telegram"></i></a>
+            <a href="https://vk.com/rsau_official"><i class="fa fa-vk"></i></a>
+            <a href="https://youtu.be/YVD2GiAVd2Y?si=aly8sdreanjL8Hz9"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/timiryazevka_official/?hl=ru"><i class="fa fa-instagram"></i></a>
+          </div>
+        
+          <div class="row">
+            <ul>
+              <li><a href="index.html">ГЛАВНАЯ</a></li>
+              <li><a href="catalog.html">КАТАЛОГ</a></li>
+              <li><a href="about us.html">О НАС</a></li>
+              <li><a href="contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+          </div>
+        
+          <div class="roww">ООО ФГБОУ ВО РГАУ-МСХА ИМЕНИ К.А. ТИМИРЯЗЕВА</div>
+        </div>
+      </footer>
+
+
+    <script src="JavaScript/index3.js"></script>
+    <script src="JavaScript/index4.js"></script>
